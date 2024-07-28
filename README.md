@@ -1,8 +1,10 @@
-# React + Vite
+This project utilizes the following technologies:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React: For building the user interface.
+Vite: As a fast development server and build tool.
 
-Currently, two official plugins are available:
+VisX: For creating interactive data visualizations.
+VisX was chosen over D3 for its simpler API and better integration with React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+npm install
+npm run dev
